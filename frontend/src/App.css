@@ -1,0 +1,55 @@
+/* .head{
+  /* background: url('../public/images/cfc3.gif');
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  /* background:  url(https://i.pinimg.com/originals/c4/9a/20/c49a207e0f89c9290d98fd43a87a8cb0.gif) no-repeat center center fixed; 
+  background-size: cover; */
+  /* height: 80vh; */
+  /* car: https://nexonev.tatamotors.com/wp-content/themes/tata-nexon/assets/loader.gif 
+  ///tmpo https://i.pinimg.com/originals/c9/cd/87/c9cd87f378d19eafc26bb930fe49e107.gif
+  //https://cdn.dribbble.com/users/2676086/screenshots/14397574/truck.gif
+}*/
+
+.fstHead {
+  color: rgb(255, 0, 0);
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+/* navigation */
+nav{
+  height: 80px;
+  font-size: 20px;
+}
+.navbar-brand{
+  font-size: 30px;
+  color: green;
+  padding: 25px;
+}
+#sub{
+  padding: 10px;
+}
+.navbar-toggle{
+  padding: 20px;
+}
+.navbar-right{
+  padding: 2px;
+}
+#btn {
+  background: -webkit-linear-gradient(right, rgb(225,255,77), #a6f77b);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #2f3324;
+  cursor: pointer;
+  color:  #000000;
+  font-size: 20px;
+   padding-right: 4px;
+   margin-bottom: 2px;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 38.3px;
+  margin: 0 auto;
+  margin-top: 8.7px;
+  transition: 0.50s;
+  width: 160px;
+}

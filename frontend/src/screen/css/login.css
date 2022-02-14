@@ -1,0 +1,102 @@
+h1{
+    align-content: center;
+    background-color: rgb(117, 230, 82);
+    text-align: center;
+}
+  /* body {
+    background: -webkit-linear-gradient(bottom, rgb(225,255,77), #a6f77b);
+    background-repeat: no-repeat;
+  } */
+  label {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+  }
+  #forgot-pass {
+    color: #246340;
+    font-family: "Raleway", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 3px;
+    text-align: right;
+  }
+  #card {
+    /* background-color: rgba(225, 225, 225, 0.2); */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: auto;
+    margin: 6rem auto 8.1rem auto;
+    width: 400px;
+  }
+  /* media for card */
+  @media only screen and (max-width: 768px) {
+    #card {
+      width: 320px;
+    }
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  #signup {
+    color: #288b55;
+    font-family: "Raleway", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  #submit-btn {
+    background: -webkit-linear-gradient(right, #407037f1, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-weight: bold;
+    height: 42.3px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 170px;
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 18px #20a343;
+  }
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+     line-height: 2;
+  }
+  .form-border {
+    background: -webkit-linear-gradient(right, #72cf3f, #1f5c3a);
+    height: 2px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+  }
+  .underline-title {
+    background: -webkit-linear-gradient(right, #51d10c, #2e4438);
+    height: 1px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+  }
+.txt{
+    font-size: 40px;
+    text-align: center;
+}
